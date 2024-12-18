@@ -19,17 +19,64 @@
 </header>
 <head>
 <link rel="stylesheet" href="assets/style.css">
+<style>
+/* Contact container */
+.contact-container {
+    max-width: 800px; /* Set a maximum width for readability */
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Use a clean font */
+}
+
+/* Contact section styling */
+.contact-section {
+    margin-bottom: 30px; /* Space between each section */
+}
+
+.contact-section h2 {
+    color: #333; /* Dark color for the headings */
+    font-size: 24px;
+    margin-bottom: 10px; /* Space between the heading and content */
+}
+
+.contact-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555; /* Lighter color for the text */
+}
+
+.contact-section a {
+    text-decoration: none; /* Remove underline from links */
+    color: #0077cc; /* Blue color for links */
+}
+
+.contact-section a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+</style>
 <title>Connect</title>
 </head>
 <body>
-<h2>Email</h2>
-    <p><a href="mailto:huyennguyenn14@gmail.com">huyennguyenn14@gmail.com</a></p>
-    <p><a href="mailto:nguyennhuyen14@yahoo.com">nguyennhuyen14@yahoo.com</a></p>
-    <p><a href="mailto:huyenn14@csu.fullerton.edu">huyenn14@csu.fullerton.edu</a></p>
-<h2>LinkedIn</h2>
-    <p><a href="https://www.linkedin.com/in/huyen-nguyen-31328a27b/">LinkedIn</a></p>
-<h2>GitHub</h2>
-    <p><a href="https://github.com/nguyennkhuyen">GitHub</a></p>
-<script src="assets/script.js"></script>
+    <div class="contact-container">
+        <!-- Email Section -->
+        <section class="contact-section">
+            <h2>Email</h2>
+            <p><a href="mailto:huyennguyenn14@gmail.com">huyennguyenn14@gmail.com</a></p>
+            <p><a href="mailto:nguyennhuyen14@yahoo.com">nguyennhuyen14@yahoo.com</a></p>
+            <p><a href="mailto:huyenn14@csu.fullerton.edu">huyenn14@csu.fullerton.edu</a></p>
+        </section>
+
+        <!-- LinkedIn Section -->
+        <section class="contact-section">
+            <h2>LinkedIn</h2>
+            <p><a href="https://www.linkedin.com/in/huyen-nguyen-31328a27b/" target="_blank">LinkedIn Profile</a></p>
+        </section>
+
+        <!-- GitHub Section -->
+        <section class="contact-section">
+            <h2>GitHub</h2>
+            <p><a href="https://github.com/nguyennkhuyen" target="_blank">GitHub Profile</a></p>
+        </section>
+    </div>
 </body>
 </html>
