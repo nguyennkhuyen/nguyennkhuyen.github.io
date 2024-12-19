@@ -1,15 +1,8 @@
-/********************* Colour reference chart****************
-*************************** comment ********* colour ******** 
-
-file icon background        cornsilk          #FFF8DC
-
-*/
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    display: flex; /* Flexbox container */
-    height: 100vh; /* Full viewport height */
+    display: flex;
+    height: 100vh;
     background-image: url(file_background.jpg);
     background-size: contain;
     background-position: bottom right;
@@ -19,15 +12,14 @@ body {
 /* Navigation Sidebar */
 header {
     background-color: #f8f8f8;
-    min-width: 200px; /* Sidebar width */
+    min-width: 200px;
     display: flex;
     padding: 20px 10px;
 }
 /* Main Content */
 .content {
-    flex: 1; /* Takes up remaining space */
+    flex: 1;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -38,10 +30,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-p {
-    text-align: center;
 }
 
 /* button code from w3schools */
@@ -55,17 +43,40 @@ p {
     border-radius: 8px;
     font-size: 16px;
     font-family: Arial, sans-serif;
-  }
+}
   
-  /* Darker background on mouse-over */
-  .btn:hover {
+/* Darker background on mouse-over */
+.btn:hover {
     background-color: white;
-  }
+}
 
-  .folder-icon {
-    width: 50px; /* Adjust the width of the folder image */
-    height: 50px; /* Adjust the height */
-    margin-right: 10px; /* Space between the icon and text */
-  }
+/* style folder icon for button use */
+.folder-icon {
+    width: 50px; 
+    height: 50px;
+    margin-right: 10px;
+}
 
+/* Text Box Styling */
+.text-box {
+    background-color: cornsilk;
+    padding: 20px; 
+    margin: 20px 0;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px lightblue;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+        
+/* Headings */
+.text-box h2 {
+    margin-top: 0;
+    color: #333;
+}
+        
+/* Paragraphs */
+.text-box p {
+    line-height: 2;
+}
   
