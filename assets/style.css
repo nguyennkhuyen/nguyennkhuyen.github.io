@@ -83,7 +83,7 @@ img {
 .image-with-border {
     border: 8px lightgoldenrodyellow;
     border-style: outset;
-    height: 80%;
+    height: 60%;
     width: auto;
     margin: auto;
 }
