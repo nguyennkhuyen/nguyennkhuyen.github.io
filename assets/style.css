@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
     height: 100vh;
@@ -78,5 +77,14 @@ img {
 /* Paragraphs */
 .text-box p {
     line-height: 2;
+    font-size: larger;
+}
+
+.image-with-border {
+    border: 8px lightgoldenrodyellow;
+    border-style: outset;
+    height: 480px;
+    width: auto;
+    margin: auto;
 }
   
